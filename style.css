@@ -2,10 +2,6 @@ body {
     background: #696969
 }
 
-p {
+#purple {
     border: 10px purple;
-}
-
-p1 {
-    border: 10 px rgb(65, 16, 113)
 }
