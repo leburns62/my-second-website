@@ -1,7 +1,78 @@
-body {
-    background: #696969
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#purple {
-    border: 10px purple;
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, lavender, black);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+header {
+    height: 10vh;
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 10vh;
+    padding: 0 10px;
+}
+
+header h1 {
+    color: purple;
+    display: inline-block;
+    float: left;
+}
+
+header #nav {
+    display: inline-block;
+}
+
+header #nav ul {
+    
+}
+
+header #nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 12px;
+    font-size: 22px;
+}
+
+header #nav ul li a {
+    text-decoration: none;
+    color: purple;
+}
+
+header #nav ul li a:hover {
+    color: white;
+}
+
+main {
+    margin-top: 2vh;
+}
+
+header h1 {
+    
+}
+
+.red {
+    color: red;
+}
+
+.purple {
+    color: purple;
+}
+
+.purple-border {
+    border: 1px solid purple;
+}
+
+.nav-active {
+    font-weight: 700;
+}
+
+
